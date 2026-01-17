@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Clients from './components/Clients.jsx'
-import Client from './components/Client.jsx';
-import Login from './components/Login.jsx';
+import Client from './components/Client.jsx'
+import Login from './components/Login.jsx'
+import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -17,3 +18,5 @@ createRoot(document.getElementById('root')).render(
     </Routes>
   </BrowserRouter>
 )
+
+serviceWorkerRegistration.register()

@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^8.0.1",
+    "@capacitor/cli": "^8.0.1",
+    "@capacitor/core": "^8.0.1",
     "@ionic/react": "^8.7.17",
     "@tailwindcss/vite": "^4.1.18",
     "ionicons": "^8.0.13",
